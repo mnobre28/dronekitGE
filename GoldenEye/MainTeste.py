@@ -30,10 +30,9 @@ if not connection_string:
 #   Set `wait_ready=True` to ensure default attributes are populated before `connect()` returns.
 print ("\nConnecting to vehicle on: %s" % connection_string)
 vehicle = connect(connection_string, wait_ready=True, vehicle_class=GEVehicle.GEVehicle)
-#cv = ControleVoo()
-#cv.arm_and_takeoff(vehicle)
-#vehicle.arm_and_takeoff(5)
-
 controleMissao = ControleMissao.ControleMissao(vehicle)
+controleMissao.armAndTakeoff(vehicle)
+controleMissao.startMission(vehicle)
+controleMissao.updateMission(vehicle)
 
 print("Completed")

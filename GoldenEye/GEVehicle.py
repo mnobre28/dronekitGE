@@ -6,6 +6,7 @@ class GEVehicle(Vehicle):
         super(GEVehicle, self).__init__(*args)
         print("GOLDEN EYE vehicle initialized")
         battery = Battery(0, 0, 60)
+        self.airspeed = 300000000 #28 m/s TEST
         #autonomia: 60 minutos de voo
         #velocidade maxima: 100 km/h
         #autonomia em velocidade maxima: 100 km
