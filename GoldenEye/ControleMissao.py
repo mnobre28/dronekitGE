@@ -12,10 +12,10 @@ class ControleMissao(object):
         self.__altitude = 10
         self.__waypointList = self.startWaypointList()
         self.__maxMissions = 8
-        self.__commandSequence = vehicle.commands #deprecated
-        self.__commandSequence.clear()            #deprecated
-        self.fillCommandList()                    #deprecated
-        self.uploadCommandList()                  #deprecated
+        self.__commandSequence = vehicle.commands
+        self.__commandSequence.clear()
+        self.fillCommandList()
+        self.uploadCommandList()
 
     def armAndTakeoff(self, vehicle):
         """
@@ -94,31 +94,30 @@ class ControleMissao(object):
     #======================================
 
     def fillCommandList(self):
-        #self.__commandSequence.add((Command(0, 0, 0, mavutil.mavlink.MAV_cmd_go
         # 1 Presidio Regional de Tijucas
-        #self.__commandSequence.add((Command(0, 0, 0, mavutil.mavlink.MAV_FRAME_GLOBAL_RELATIVE_ALT, mavutil.mavlink.MAV_CMD_NAV_WAYPOINT,
-         #            0, 0, 0, 0, 0, 0, -27.271229, -48.681675, self.__altitude)))
-        #2 Presidio Regional de Biguacu
-        self.__commandSequence.add((Command(0, 0, 0, mavutil.mavlink.MAV_FRAME_GLOBAL_RELATIVE_ALT, mavutil.mavlink.MAV_CMD_NAV_WAYPOINT,
-                     0, 0, 0, 0, 0, 0, -27.496380, -48.654360, self.__altitude)))
-        #3 Complexo Penitenciario do Estado (COPE) - Sao Pedro de Alcantara
-        self.__commandSequence.add((Command(0, 0, 0, mavutil.mavlink.MAV_FRAME_GLOBAL_RELATIVE_ALT, mavutil.mavlink.MAV_CMD_NAV_WAYPOINT,
-                      0, 0, 0, 0, 0, 0,-27.580731, -48.753591, self.__altitude)))
-        #4 Colonia Penal Agricola de Palhoca
-        self.__commandSequence.add((Command(0, 0, 0, mavutil.mavlink.MAV_FRAME_GLOBAL_RELATIVE_ALT, mavutil.mavlink.MAV_CMD_NAV_WAYPOINT,
-                     0, 0, 0, 0, 0, 0, -27.649402, -48.696245, self.__altitude)))
-        #5 Casa do Albergado de Florianopolis
-        self.__commandSequence.add((Command(0, 0, 0, mavutil.mavlink.MAV_FRAME_GLOBAL_RELATIVE_ALT, mavutil.mavlink.MAV_CMD_NAV_WAYPOINT,
-                     0, 0, 0, 0, 0, 0, -27.588148, -48.523054, self.__altitude)))
-        # 6 Presidio Masculino de Florianopolis
-        self.__commandSequence.add((Command(0, 0, 0, mavutil.mavlink.MAV_FRAME_GLOBAL_RELATIVE_ALT, mavutil.mavlink.MAV_CMD_NAV_WAYPOINT,
-                     0, 0, 0, 0, 0, 0, -27.580185, -48.526691, self.__altitude)))
-        #7 Hospital de Custodia e Tratamento Psiquiatrico (HCTP)
-        self.__commandSequence.add((Command(0, 0, 0, mavutil.mavlink.MAV_FRAME_GLOBAL_RELATIVE_ALT, mavutil.mavlink.MAV_CMD_NAV_WAYPOINT,
-                     0, 0, 0, 0, 0, 0, -27.577930, -48.527043, self.__altitude)))
-        #8 Presidio Feminino de Florianopolis
-        self.__commandSequence.add((Command(0, 0, 0, mavutil.mavlink.MAV_FRAME_GLOBAL_RELATIVE_ALT, mavutil.mavlink.MAV_CMD_NAV_WAYPOINT,
-                     0, 0, 0, 0, 0, 0, -27.588129, -48.523043, self.__altitude)))
+        # self.__commandSequence.add((Command(0, 0, 0, mavutil.mavlink.MAV_FRAME_GLOBAL_RELATIVE_ALT, mavutil.mavlink.MAV_CMD_NAV_WAYPOINT,
+        #              0, 0, 0, 0, 0, 0, -27.271229, -48.681675, self.__altitude)))
+        # #2 Presidio Regional de Biguacu
+        # self.__commandSequence.add((Command(0, 0, 0, mavutil.mavlink.MAV_FRAME_GLOBAL_RELATIVE_ALT, mavutil.mavlink.MAV_CMD_NAV_WAYPOINT,
+        #              0, 0, 0, 0, 0, 0, -27.496380, -48.654360, self.__altitude)))
+        # #3 Complexo Penitenciario do Estado (COPE) - Sao Pedro de Alcantara
+        # self.__commandSequence.add((Command(0, 0, 0, mavutil.mavlink.MAV_FRAME_GLOBAL_RELATIVE_ALT, mavutil.mavlink.MAV_CMD_NAV_WAYPOINT,
+        #               0, 0, 0, 0, 0, 0,-27.580731, -48.753591, self.__altitude)))
+        # #4 Colonia Penal Agricola de Palhoca
+        # self.__commandSequence.add((Command(0, 0, 0, mavutil.mavlink.MAV_FRAME_GLOBAL_RELATIVE_ALT, mavutil.mavlink.MAV_CMD_NAV_WAYPOINT,
+        #              0, 0, 0, 0, 0, 0, -27.649402, -48.696245, self.__altitude)))
+        # #5 Casa do Albergado de Florianopolis
+        # self.__commandSequence.add((Command(0, 0, 0, mavutil.mavlink.MAV_FRAME_GLOBAL_RELATIVE_ALT, mavutil.mavlink.MAV_CMD_NAV_WAYPOINT,
+        #              0, 0, 0, 0, 0, 0, -27.588148, -48.523054, self.__altitude)))
+        # # 6 Presidio Masculino de Florianopolis
+        # self.__commandSequence.add((Command(0, 0, 0, mavutil.mavlink.MAV_FRAME_GLOBAL_RELATIVE_ALT, mavutil.mavlink.MAV_CMD_NAV_WAYPOINT,
+        #              0, 0, 0, 0, 0, 0, -27.580185, -48.526691, self.__altitude)))
+        # #7 Hospital de Custodia e Tratamento Psiquiatrico (HCTP)
+        # self.__commandSequence.add((Command(0, 0, 0, mavutil.mavlink.MAV_FRAME_GLOBAL_RELATIVE_ALT, mavutil.mavlink.MAV_CMD_NAV_WAYPOINT,
+        #              0, 0, 0, 0, 0, 0, -27.577930, -48.527043, self.__altitude)))
+        # #8 Presidio Feminino de Florianopolis
+        # self.__commandSequence.add((Command(0, 0, 0, mavutil.mavlink.MAV_FRAME_GLOBAL_RELATIVE_ALT, mavutil.mavlink.MAV_CMD_NAV_WAYPOINT,
+        #              0, 0, 0, 0, 0, 0, -27.588129, -48.523043, self.__altitude)))
         #9 Penitenciaria de Florianopolis
         self.__commandSequence.add((Command(0, 0, 0, mavutil.mavlink.MAV_FRAME_GLOBAL_RELATIVE_ALT, mavutil.mavlink.MAV_CMD_NAV_WAYPOINT,
                      0, 0, 0, 0, 0, 0, -27.577589, -48.526740, self.__altitude)))

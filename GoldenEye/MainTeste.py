@@ -31,7 +31,8 @@ sitl = None
 if not connection_string:
     import dronekit_sitl
 
-    sitl = dronekit_sitl.start_default(-27.271229, -48.681675)
+    #sitl = dronekit_sitl.start_default(-27.271229, -48.681675) #original
+    sitl = dronekit_sitl.start_default(-27.588129, -48.523043) #testing
     connection_string = sitl.connection_string()
 
 # Connect to the Vehicle.
