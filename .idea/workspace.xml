@@ -6,6 +6,7 @@
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/GoldenEye/ControleMissao.py" afterPath="$PROJECT_DIR$/GoldenEye/ControleMissao.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/GoldenEye/GEVehicle.py" afterPath="$PROJECT_DIR$/GoldenEye/GEVehicle.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/GoldenEye/MainTeste.py" afterPath="$PROJECT_DIR$/GoldenEye/MainTeste.py" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/GoldenEye/ControleVoo.py" afterPath="$PROJECT_DIR$/GoldenEye/GELocationGlobal.py" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -16,23 +17,56 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
-      <file leaf-file-name="GEVehicle.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="GEVehicle.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/GoldenEye/GEVehicle.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="216">
-              <caret line="8" column="33" lean-forward="false" selection-start-line="8" selection-start-column="33" selection-end-line="8" selection-end-column="33" />
+            <state relative-caret-position="243">
+              <caret line="9" column="30" lean-forward="false" selection-start-line="9" selection-start-column="30" selection-end-line="9" selection-end-column="30" />
               <folding>
-                <element signature="e#0#50#0" expanded="true" />
+                <element signature="e#0#59#0" expanded="true" />
+                <element signature="e#596#616#0" expanded="false" />
+                <element signature="e#673#726#0" expanded="false" />
+                <element signature="e#767#816#0" expanded="false" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ControleVoo.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/GoldenEye/ControleVoo.py">
+      <file leaf-file-name="threading.py" pinned="false" current-in-tab="false">
+        <entry file="file://C:/Python27/python-2.7.13.amd64/Lib/threading.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1269">
-              <caret line="48" column="35" lean-forward="false" selection-start-line="48" selection-start-column="35" selection-end-line="48" selection-end-column="35" />
+            <state relative-caret-position="25056">
+              <caret line="928" column="0" lean-forward="false" selection-start-line="928" selection-start-column="0" selection-end-line="928" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="mavlink.py" pinned="false" current-in-tab="false">
+        <entry file="file://C:/Python27/python-2.7.13.amd64/Lib/site-packages/dronekit/mavlink.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="3969">
+              <caret line="162" column="0" lean-forward="false" selection-start-line="162" selection-start-column="0" selection-end-line="162" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="atexit.py" pinned="false" current-in-tab="false">
+        <entry file="file://C:/Python27/python-2.7.13.amd64/Lib/atexit.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="621">
+              <caret line="23" column="0" lean-forward="false" selection-start-line="23" selection-start-column="0" selection-end-line="23" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="GELocationGlobal.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/GoldenEye/GELocationGlobal.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="270">
+              <caret line="10" column="23" lean-forward="true" selection-start-line="10" selection-start-column="23" selection-end-line="10" selection-end-column="23" />
               <folding />
             </state>
           </provider>
@@ -51,44 +85,66 @@
       <file leaf-file-name="ControleMissao.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/GoldenEye/ControleMissao.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="621">
-              <caret line="87" column="0" lean-forward="false" selection-start-line="87" selection-start-column="0" selection-end-line="87" selection-end-column="0" />
+            <state relative-caret-position="290">
+              <caret line="130" column="0" lean-forward="false" selection-start-line="130" selection-start-column="0" selection-end-line="130" selection-end-column="0" />
               <folding>
                 <element signature="e#0#11#0" expanded="true" />
-                <element signature="e#525#1782#0" expanded="false" />
-                <element signature="e#525#589#1" expanded="false" />
-                <element signature="e#730#801#0" expanded="false" />
-                <element signature="e#1058#1114#0" expanded="false" />
-                <element signature="e#1231#1327#0" expanded="false" />
-                <element signature="e#1823#4222#0" expanded="false" />
-                <element signature="e#4265#4435#0" expanded="false" />
-                <element signature="e#4482#4581#0" expanded="false" />
-                <element signature="e#4629#5020#0" expanded="false" />
-                <element signature="e#5095#5707#0" expanded="false" />
-                <element signature="e#5095#5231#1" expanded="false" />
-                <element signature="e#5788#6298#0" expanded="false" />
-                <element signature="e#5788#6136#1" expanded="false" />
+                <element signature="e#737#2149#0" expanded="false" />
+                <element signature="e#737#801#1" expanded="false" />
+                <element signature="e#942#1013#0" expanded="false" />
+                <element signature="e#1336#1392#0" expanded="false" />
+                <element signature="e#1509#1605#0" expanded="false" />
+                <element signature="e#2235#3216#0" expanded="false" />
+                <element signature="e#3258#3412#0" expanded="false" />
+                <element signature="e#3467#4278#0" expanded="false" />
+                <element signature="e#4363#6866#0" expanded="false" />
+                <element signature="e#6909#7085#0" expanded="false" />
+                <element signature="e#7132#7276#0" expanded="false" />
+                <element signature="e#7324#7821#0" expanded="false" />
+                <element signature="e#7378#7773#0" expanded="false" />
+                <element signature="e#7896#8089#0" expanded="false" />
+                <element signature="e#8158#8786#0" expanded="false" />
+                <element signature="e#8158#8294#1" expanded="false" />
+                <element signature="e#8848#9027#0" expanded="false" />
+                <element signature="e#9108#9618#0" expanded="false" />
+                <element signature="e#9108#9456#1" expanded="false" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="MainTeste.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/GoldenEye/MainTeste.py">
+      <file leaf-file-name="__init__.py" pinned="false" current-in-tab="false">
+        <entry file="file://C:/Python27/python-2.7.13.amd64/Lib/site-packages/dronekit/__init__.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="245">
-              <caret line="35" column="0" lean-forward="false" selection-start-line="35" selection-start-column="0" selection-end-line="35" selection-end-column="0" />
+            <state relative-caret-position="158">
+              <caret line="2116" column="0" lean-forward="false" selection-start-line="2116" selection-start-column="0" selection-end-line="2116" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ControleBateria.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/GoldenEye/ControleBateria.py">
+      <file leaf-file-name="MainTeste.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/GoldenEye/MainTeste.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
+            <state relative-caret-position="351">
+              <caret line="28" column="0" lean-forward="true" selection-start-line="28" selection-start-column="0" selection-end-line="28" selection-end-column="0" />
+              <folding>
+                <element signature="e#72#122#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="__init__.py" pinned="false" current-in-tab="false">
+        <entry file="file://C:/Python27/python-2.7.13.amd64/Lib/site-packages/dronekit_sitl/__init__.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="2970">
+              <caret line="174" column="23" lean-forward="true" selection-start-line="174" selection-start-column="23" selection-end-line="174" selection-end-column="23" />
+              <folding>
+                <element signature="e#937#1857#0" expanded="false" />
+                <element signature="e#1933#2230#0" expanded="false" />
+                <element signature="e#11928#16552#0" expanded="false" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -100,6 +156,7 @@
       <find>self.__ve</find>
       <find>self.__vehicle</find>
       <find>vehiclemode</find>
+      <find>speed</find>
     </findStrings>
     <replaceStrings>
       <replace>vehicle</replace>
@@ -111,9 +168,11 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
+        <option value="$PROJECT_DIR$/GoldenEye/ControleVoo.py" />
+        <option value="$PROJECT_DIR$/GoldenEye/GELocationGlobal.py" />
+        <option value="$PROJECT_DIR$/GoldenEye/GEVehicle.py" />
         <option value="$PROJECT_DIR$/GoldenEye/MainTeste.py" />
         <option value="$PROJECT_DIR$/GoldenEye/ControleMissao.py" />
-        <option value="$PROJECT_DIR$/GoldenEye/GEVehicle.py" />
       </list>
     </option>
   </component>
@@ -154,8 +213,8 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scratches" />
       <pane id="Scope" />
+      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -213,17 +272,18 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-9" y="-9" width="1938" height="1050" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.18125" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="true" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.37527594" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.40949228" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Data View" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -239,22 +299,308 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="1" />
+      <option name="time" value="12" />
     </breakpoint-manager>
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/GoldenEye/MainTeste.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="19" column="21" lean-forward="true" selection-start-line="19" selection-start-column="21" selection-end-line="19" selection-end-column="21" />
+          <folding>
+            <element signature="e#72#122#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/GoldenEye/ControleBateria.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/GoldenEye/ControleMissao.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="81">
+          <caret line="5" column="29" lean-forward="true" selection-start-line="5" selection-start-column="29" selection-end-line="5" selection-end-column="29" />
+          <folding>
+            <element signature="e#0#11#0" expanded="true" />
+            <element signature="e#737#2149#0" expanded="false" />
+            <element signature="e#737#801#1" expanded="false" />
+            <element signature="e#942#1013#0" expanded="false" />
+            <element signature="e#1336#1392#0" expanded="false" />
+            <element signature="e#1509#1605#0" expanded="false" />
+            <element signature="e#2235#3216#0" expanded="false" />
+            <element signature="e#3258#3412#0" expanded="false" />
+            <element signature="e#3467#4278#0" expanded="false" />
+            <element signature="e#4363#6866#0" expanded="false" />
+            <element signature="e#6909#7085#0" expanded="false" />
+            <element signature="e#7132#7276#0" expanded="false" />
+            <element signature="e#7324#7821#0" expanded="false" />
+            <element signature="e#7378#7773#0" expanded="false" />
+            <element signature="e#7896#8089#0" expanded="false" />
+            <element signature="e#8158#8786#0" expanded="false" />
+            <element signature="e#8158#8294#1" expanded="false" />
+            <element signature="e#8848#9027#0" expanded="false" />
+            <element signature="e#9108#9618#0" expanded="false" />
+            <element signature="e#9108#9456#1" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/GoldenEye/GEVehicle.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="11" column="47" lean-forward="false" selection-start-line="11" selection-start-column="47" selection-end-line="11" selection-end-column="47" />
+          <folding>
+            <element signature="e#0#59#0" expanded="true" />
+            <element signature="e#596#616#0" expanded="false" />
+            <element signature="e#673#726#0" expanded="false" />
+            <element signature="e#767#816#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/GoldenEye/GELocationGlobal.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1269">
+          <caret line="48" column="35" lean-forward="false" selection-start-line="48" selection-start-column="35" selection-end-line="48" selection-end-column="35" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/GoldenEye/Sensor.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://C:/Python27/python-2.7.13.amd64/Lib/site-packages/dronekit/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2673">
+          <caret line="120" column="43" lean-forward="false" selection-start-line="120" selection-start-column="43" selection-end-line="120" selection-end-column="43" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/GoldenEye/MainTeste.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="837">
+          <caret line="39" column="0" lean-forward="false" selection-start-line="39" selection-start-column="0" selection-end-line="39" selection-end-column="0" />
+          <folding>
+            <element signature="e#72#122#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/GoldenEye/ControleBateria.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/GoldenEye/ControleMissao.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1215">
+          <caret line="79" column="9" lean-forward="true" selection-start-line="79" selection-start-column="9" selection-end-line="79" selection-end-column="43" />
+          <folding>
+            <element signature="e#0#11#0" expanded="true" />
+            <element signature="e#737#2149#0" expanded="false" />
+            <element signature="e#737#801#1" expanded="false" />
+            <element signature="e#942#1013#0" expanded="false" />
+            <element signature="e#1336#1392#0" expanded="false" />
+            <element signature="e#1509#1605#0" expanded="false" />
+            <element signature="e#2235#3216#0" expanded="false" />
+            <element signature="e#3258#3412#0" expanded="false" />
+            <element signature="e#3467#4278#0" expanded="false" />
+            <element signature="e#4363#6866#0" expanded="false" />
+            <element signature="e#6909#7085#0" expanded="false" />
+            <element signature="e#7132#7276#0" expanded="false" />
+            <element signature="e#7324#7821#0" expanded="false" />
+            <element signature="e#7378#7773#0" expanded="false" />
+            <element signature="e#7896#8089#0" expanded="false" />
+            <element signature="e#8158#8786#0" expanded="false" />
+            <element signature="e#8158#8294#1" expanded="false" />
+            <element signature="e#8848#9027#0" expanded="false" />
+            <element signature="e#9108#9618#0" expanded="false" />
+            <element signature="e#9108#9456#1" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/GoldenEye/GEVehicle.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="11" column="47" lean-forward="false" selection-start-line="11" selection-start-column="47" selection-end-line="11" selection-end-column="47" />
+          <folding>
+            <element signature="e#0#59#0" expanded="true" />
+            <element signature="e#596#616#0" expanded="false" />
+            <element signature="e#673#726#0" expanded="false" />
+            <element signature="e#767#816#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/GoldenEye/Sensor.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/GoldenEye/GELocationGlobal.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1269">
+          <caret line="48" column="35" lean-forward="false" selection-start-line="48" selection-start-column="35" selection-end-line="48" selection-end-column="35" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://C:/Python27/python-2.7.13.amd64/Lib/site-packages/dronekit/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3240">
+          <caret line="120" column="43" lean-forward="true" selection-start-line="120" selection-start-column="43" selection-end-line="120" selection-end-column="43" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/GoldenEye/MainTeste.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="837">
+          <caret line="39" column="0" lean-forward="false" selection-start-line="39" selection-start-column="0" selection-end-line="39" selection-end-column="0" />
+          <folding>
+            <element signature="e#72#122#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/GoldenEye/ControleBateria.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/GoldenEye/ControleMissao.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="945">
+          <caret line="100" column="31" lean-forward="false" selection-start-line="100" selection-start-column="31" selection-end-line="100" selection-end-column="31" />
+          <folding>
+            <element signature="e#0#11#0" expanded="true" />
+            <element signature="e#737#2149#0" expanded="false" />
+            <element signature="e#737#801#1" expanded="false" />
+            <element signature="e#942#1013#0" expanded="false" />
+            <element signature="e#1336#1392#0" expanded="false" />
+            <element signature="e#1509#1605#0" expanded="false" />
+            <element signature="e#2235#3216#0" expanded="false" />
+            <element signature="e#3258#3412#0" expanded="false" />
+            <element signature="e#3467#4278#0" expanded="false" />
+            <element signature="e#4363#6866#0" expanded="false" />
+            <element signature="e#6909#7085#0" expanded="false" />
+            <element signature="e#7132#7276#0" expanded="false" />
+            <element signature="e#7324#7821#0" expanded="false" />
+            <element signature="e#7378#7773#0" expanded="false" />
+            <element signature="e#7896#8089#0" expanded="false" />
+            <element signature="e#8158#8786#0" expanded="false" />
+            <element signature="e#8158#8294#1" expanded="false" />
+            <element signature="e#8848#9027#0" expanded="false" />
+            <element signature="e#9108#9618#0" expanded="false" />
+            <element signature="e#9108#9456#1" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/GoldenEye/GEVehicle.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#59#0" expanded="true" />
+            <element signature="e#596#616#0" expanded="false" />
+            <element signature="e#673#726#0" expanded="false" />
+            <element signature="e#767#816#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/GoldenEye/GELocationGlobal.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1269">
+          <caret line="48" column="35" lean-forward="false" selection-start-line="48" selection-start-column="35" selection-end-line="48" selection-end-column="35" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/GoldenEye/ControleMissao.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="621">
+          <caret line="87" column="0" lean-forward="false" selection-start-line="87" selection-start-column="0" selection-end-line="87" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#11#0" expanded="true" />
+            <element signature="e#737#2149#0" expanded="false" />
+            <element signature="e#737#801#1" expanded="false" />
+            <element signature="e#942#1013#0" expanded="false" />
+            <element signature="e#1336#1392#0" expanded="false" />
+            <element signature="e#1509#1605#0" expanded="false" />
+            <element signature="e#2235#3216#0" expanded="false" />
+            <element signature="e#3258#3412#0" expanded="false" />
+            <element signature="e#3467#4278#0" expanded="false" />
+            <element signature="e#4363#6866#0" expanded="false" />
+            <element signature="e#6909#7085#0" expanded="false" />
+            <element signature="e#7132#7276#0" expanded="false" />
+            <element signature="e#7324#7821#0" expanded="false" />
+            <element signature="e#7378#7773#0" expanded="false" />
+            <element signature="e#7896#8089#0" expanded="false" />
+            <element signature="e#8158#8786#0" expanded="false" />
+            <element signature="e#8158#8294#1" expanded="false" />
+            <element signature="e#8848#9027#0" expanded="false" />
+            <element signature="e#9108#9618#0" expanded="false" />
+            <element signature="e#9108#9456#1" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/GoldenEye/MainTeste.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="729">
+          <caret line="35" column="0" lean-forward="false" selection-start-line="35" selection-start-column="0" selection-end-line="35" selection-end-column="0" />
+          <folding>
+            <element signature="e#72#122#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/GoldenEye/ControleBateria.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/GoldenEye/GEVehicle.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1134">
           <caret line="43" column="39" lean-forward="false" selection-start-line="43" selection-start-column="39" selection-end-line="43" selection-end-column="39" />
           <folding>
-            <element signature="e#0#50#0" expanded="true" />
+            <element signature="e#0#59#0" expanded="true" />
+            <element signature="e#596#616#0" expanded="false" />
+            <element signature="e#673#726#0" expanded="false" />
+            <element signature="e#767#816#0" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/GoldenEye/ControleVoo.py">
+    <entry file="file://$PROJECT_DIR$/GoldenEye/GELocationGlobal.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1269">
           <caret line="48" column="35" lean-forward="true" selection-start-line="48" selection-start-column="35" selection-end-line="48" selection-end-column="35" />
@@ -282,7 +628,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="702">
           <caret line="34" column="0" lean-forward="false" selection-start-line="34" selection-start-column="0" selection-end-line="34" selection-end-column="0" />
-          <folding />
+          <folding>
+            <element signature="e#72#122#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -300,19 +648,25 @@
           <caret line="116" column="36" lean-forward="true" selection-start-line="116" selection-start-column="36" selection-end-line="116" selection-end-column="36" />
           <folding>
             <element signature="e#0#11#0" expanded="true" />
-            <element signature="e#525#1782#0" expanded="false" />
-            <element signature="e#525#589#1" expanded="false" />
-            <element signature="e#730#801#0" expanded="false" />
-            <element signature="e#1058#1114#0" expanded="false" />
-            <element signature="e#1231#1327#0" expanded="false" />
-            <element signature="e#1823#4222#0" expanded="false" />
-            <element signature="e#4265#4435#0" expanded="false" />
-            <element signature="e#4482#4581#0" expanded="false" />
-            <element signature="e#4629#5020#0" expanded="false" />
-            <element signature="e#5095#5707#0" expanded="false" />
-            <element signature="e#5095#5231#1" expanded="false" />
-            <element signature="e#5788#6298#0" expanded="false" />
-            <element signature="e#5788#6136#1" expanded="false" />
+            <element signature="e#737#2149#0" expanded="false" />
+            <element signature="e#737#801#1" expanded="false" />
+            <element signature="e#942#1013#0" expanded="false" />
+            <element signature="e#1336#1392#0" expanded="false" />
+            <element signature="e#1509#1605#0" expanded="false" />
+            <element signature="e#2235#3216#0" expanded="false" />
+            <element signature="e#3258#3412#0" expanded="false" />
+            <element signature="e#3467#4278#0" expanded="false" />
+            <element signature="e#4363#6866#0" expanded="false" />
+            <element signature="e#6909#7085#0" expanded="false" />
+            <element signature="e#7132#7276#0" expanded="false" />
+            <element signature="e#7324#7821#0" expanded="false" />
+            <element signature="e#7378#7773#0" expanded="false" />
+            <element signature="e#7896#8089#0" expanded="false" />
+            <element signature="e#8158#8786#0" expanded="false" />
+            <element signature="e#8158#8294#1" expanded="false" />
+            <element signature="e#8848#9027#0" expanded="false" />
+            <element signature="e#9108#9618#0" expanded="false" />
+            <element signature="e#9108#9456#1" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -322,7 +676,10 @@
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <element signature="e#0#50#0" expanded="true" />
+            <element signature="e#0#59#0" expanded="true" />
+            <element signature="e#596#616#0" expanded="false" />
+            <element signature="e#673#726#0" expanded="false" />
+            <element signature="e#767#816#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -341,19 +698,25 @@
           <caret line="4" column="29" lean-forward="false" selection-start-line="4" selection-start-column="29" selection-end-line="4" selection-end-column="29" />
           <folding>
             <element signature="e#0#11#0" expanded="true" />
-            <element signature="e#525#1782#0" expanded="false" />
-            <element signature="e#525#589#1" expanded="false" />
-            <element signature="e#730#801#0" expanded="false" />
-            <element signature="e#1058#1114#0" expanded="false" />
-            <element signature="e#1231#1327#0" expanded="false" />
-            <element signature="e#1823#4222#0" expanded="false" />
-            <element signature="e#4265#4435#0" expanded="false" />
-            <element signature="e#4482#4581#0" expanded="false" />
-            <element signature="e#4629#5020#0" expanded="false" />
-            <element signature="e#5095#5707#0" expanded="false" />
-            <element signature="e#5095#5231#1" expanded="false" />
-            <element signature="e#5788#6298#0" expanded="false" />
-            <element signature="e#5788#6136#1" expanded="false" />
+            <element signature="e#737#2149#0" expanded="false" />
+            <element signature="e#737#801#1" expanded="false" />
+            <element signature="e#942#1013#0" expanded="false" />
+            <element signature="e#1336#1392#0" expanded="false" />
+            <element signature="e#1509#1605#0" expanded="false" />
+            <element signature="e#2235#3216#0" expanded="false" />
+            <element signature="e#3258#3412#0" expanded="false" />
+            <element signature="e#3467#4278#0" expanded="false" />
+            <element signature="e#4363#6866#0" expanded="false" />
+            <element signature="e#6909#7085#0" expanded="false" />
+            <element signature="e#7132#7276#0" expanded="false" />
+            <element signature="e#7324#7821#0" expanded="false" />
+            <element signature="e#7378#7773#0" expanded="false" />
+            <element signature="e#7896#8089#0" expanded="false" />
+            <element signature="e#8158#8786#0" expanded="false" />
+            <element signature="e#8158#8294#1" expanded="false" />
+            <element signature="e#8848#9027#0" expanded="false" />
+            <element signature="e#9108#9618#0" expanded="false" />
+            <element signature="e#9108#9456#1" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -362,7 +725,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="405">
           <caret line="23" column="24" lean-forward="false" selection-start-line="23" selection-start-column="24" selection-end-line="23" selection-end-column="24" />
-          <folding />
+          <folding>
+            <element signature="e#72#122#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -390,7 +755,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/GoldenEye/ControleVoo.py">
+    <entry file="file://$PROJECT_DIR$/GoldenEye/GELocationGlobal.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -403,7 +768,10 @@
         <state relative-caret-position="135">
           <caret line="5" column="46" lean-forward="true" selection-start-line="5" selection-start-column="30" selection-end-line="5" selection-end-column="46" />
           <folding>
-            <element signature="e#0#50#0" expanded="true" />
+            <element signature="e#0#59#0" expanded="true" />
+            <element signature="e#596#616#0" expanded="false" />
+            <element signature="e#673#726#0" expanded="false" />
+            <element signature="e#767#816#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -412,7 +780,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="72">
           <caret line="23" column="24" lean-forward="false" selection-start-line="23" selection-start-column="24" selection-end-line="23" selection-end-column="24" />
-          <folding />
+          <folding>
+            <element signature="e#72#122#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -422,28 +792,26 @@
           <caret line="19" column="30" lean-forward="true" selection-start-line="19" selection-start-column="30" selection-end-line="19" selection-end-column="30" />
           <folding>
             <element signature="e#0#11#0" expanded="true" />
-            <element signature="e#525#1782#0" expanded="false" />
-            <element signature="e#525#589#1" expanded="false" />
-            <element signature="e#730#801#0" expanded="false" />
-            <element signature="e#1058#1114#0" expanded="false" />
-            <element signature="e#1231#1327#0" expanded="false" />
-            <element signature="e#1823#4222#0" expanded="false" />
-            <element signature="e#4265#4435#0" expanded="false" />
-            <element signature="e#4482#4581#0" expanded="false" />
-            <element signature="e#4629#5020#0" expanded="false" />
-            <element signature="e#5095#5707#0" expanded="false" />
-            <element signature="e#5095#5231#1" expanded="false" />
-            <element signature="e#5788#6298#0" expanded="false" />
-            <element signature="e#5788#6136#1" expanded="false" />
+            <element signature="e#737#2149#0" expanded="false" />
+            <element signature="e#737#801#1" expanded="false" />
+            <element signature="e#942#1013#0" expanded="false" />
+            <element signature="e#1336#1392#0" expanded="false" />
+            <element signature="e#1509#1605#0" expanded="false" />
+            <element signature="e#2235#3216#0" expanded="false" />
+            <element signature="e#3258#3412#0" expanded="false" />
+            <element signature="e#3467#4278#0" expanded="false" />
+            <element signature="e#4363#6866#0" expanded="false" />
+            <element signature="e#6909#7085#0" expanded="false" />
+            <element signature="e#7132#7276#0" expanded="false" />
+            <element signature="e#7324#7821#0" expanded="false" />
+            <element signature="e#7378#7773#0" expanded="false" />
+            <element signature="e#7896#8089#0" expanded="false" />
+            <element signature="e#8158#8786#0" expanded="false" />
+            <element signature="e#8158#8294#1" expanded="false" />
+            <element signature="e#8848#9027#0" expanded="false" />
+            <element signature="e#9108#9618#0" expanded="false" />
+            <element signature="e#9108#9456#1" expanded="false" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/GoldenEye/Sensor.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -455,59 +823,114 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/GoldenEye/ControleVoo.py">
+    <entry file="file://$PROJECT_DIR$/GoldenEye/Sensor.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1269">
-          <caret line="48" column="35" lean-forward="false" selection-start-line="48" selection-start-column="35" selection-end-line="48" selection-end-column="35" />
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/GoldenEye/MainTeste.py">
+    <entry file="file://C:/Python27/python-2.7.13.amd64/Lib/site-packages/dronekit_sitl/__init__.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="245">
-          <caret line="35" column="0" lean-forward="false" selection-start-line="35" selection-start-column="0" selection-end-line="35" selection-end-column="0" />
+        <state relative-caret-position="2970">
+          <caret line="174" column="23" lean-forward="true" selection-start-line="174" selection-start-column="23" selection-end-line="174" selection-end-column="23" />
+          <folding>
+            <element signature="e#937#1857#0" expanded="false" />
+            <element signature="e#1933#2230#0" expanded="false" />
+            <element signature="e#11928#16552#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://C:/Python27/python-2.7.13.amd64/Lib/threading.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="25056">
+          <caret line="928" column="0" lean-forward="false" selection-start-line="928" selection-start-column="0" selection-end-line="928" selection-end-column="0" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://C:/Python27/python-2.7.13.amd64/Lib/site-packages/dronekit/mavlink.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3969">
+          <caret line="162" column="0" lean-forward="false" selection-start-line="162" selection-start-column="0" selection-end-line="162" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://C:/Python27/python-2.7.13.amd64/Lib/atexit.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="621">
+          <caret line="23" column="0" lean-forward="false" selection-start-line="23" selection-start-column="0" selection-end-line="23" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/GoldenEye/GEVehicle.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="243">
+          <caret line="9" column="30" lean-forward="false" selection-start-line="9" selection-start-column="30" selection-end-line="9" selection-end-column="30" />
+          <folding>
+            <element signature="e#0#59#0" expanded="true" />
+            <element signature="e#596#616#0" expanded="false" />
+            <element signature="e#673#726#0" expanded="false" />
+            <element signature="e#767#816#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://C:/Python27/python-2.7.13.amd64/Lib/site-packages/dronekit/__init__.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-945">
-          <caret line="977" column="6" lean-forward="false" selection-start-line="977" selection-start-column="6" selection-end-line="977" selection-end-column="6" />
+        <state relative-caret-position="158">
+          <caret line="2116" column="0" lean-forward="false" selection-start-line="2116" selection-start-column="0" selection-end-line="2116" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/GoldenEye/GELocationGlobal.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="10" column="23" lean-forward="true" selection-start-line="10" selection-start-column="23" selection-end-line="10" selection-end-column="23" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/GoldenEye/ControleMissao.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="621">
-          <caret line="87" column="0" lean-forward="false" selection-start-line="87" selection-start-column="0" selection-end-line="87" selection-end-column="0" />
+        <state relative-caret-position="290">
+          <caret line="130" column="0" lean-forward="false" selection-start-line="130" selection-start-column="0" selection-end-line="130" selection-end-column="0" />
           <folding>
             <element signature="e#0#11#0" expanded="true" />
-            <element signature="e#525#1782#0" expanded="false" />
-            <element signature="e#525#589#1" expanded="false" />
-            <element signature="e#730#801#0" expanded="false" />
-            <element signature="e#1058#1114#0" expanded="false" />
-            <element signature="e#1231#1327#0" expanded="false" />
-            <element signature="e#1823#4222#0" expanded="false" />
-            <element signature="e#4265#4435#0" expanded="false" />
-            <element signature="e#4482#4581#0" expanded="false" />
-            <element signature="e#4629#5020#0" expanded="false" />
-            <element signature="e#5095#5707#0" expanded="false" />
-            <element signature="e#5095#5231#1" expanded="false" />
-            <element signature="e#5788#6298#0" expanded="false" />
-            <element signature="e#5788#6136#1" expanded="false" />
+            <element signature="e#737#2149#0" expanded="false" />
+            <element signature="e#737#801#1" expanded="false" />
+            <element signature="e#942#1013#0" expanded="false" />
+            <element signature="e#1336#1392#0" expanded="false" />
+            <element signature="e#1509#1605#0" expanded="false" />
+            <element signature="e#2235#3216#0" expanded="false" />
+            <element signature="e#3258#3412#0" expanded="false" />
+            <element signature="e#3467#4278#0" expanded="false" />
+            <element signature="e#4363#6866#0" expanded="false" />
+            <element signature="e#6909#7085#0" expanded="false" />
+            <element signature="e#7132#7276#0" expanded="false" />
+            <element signature="e#7324#7821#0" expanded="false" />
+            <element signature="e#7378#7773#0" expanded="false" />
+            <element signature="e#7896#8089#0" expanded="false" />
+            <element signature="e#8158#8786#0" expanded="false" />
+            <element signature="e#8158#8294#1" expanded="false" />
+            <element signature="e#8848#9027#0" expanded="false" />
+            <element signature="e#9108#9618#0" expanded="false" />
+            <element signature="e#9108#9456#1" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/GoldenEye/GEVehicle.py">
+    <entry file="file://$PROJECT_DIR$/GoldenEye/MainTeste.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="216">
-          <caret line="8" column="33" lean-forward="false" selection-start-line="8" selection-start-column="33" selection-end-line="8" selection-end-column="33" />
+        <state relative-caret-position="351">
+          <caret line="28" column="0" lean-forward="true" selection-start-line="28" selection-start-column="0" selection-end-line="28" selection-end-column="0" />
           <folding>
-            <element signature="e#0#50#0" expanded="true" />
+            <element signature="e#72#122#0" expanded="true" />
           </folding>
         </state>
       </provider>
